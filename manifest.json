@@ -5,7 +5,7 @@
   "description": "Removes old messages to reduce lag",
   "content_scripts": [
     {
-      "matches": ["https://chat.openai.com/*"],
+      "matches": ["https://chatgpt.com/*"],
       "js": ["content.js"]
     }
   ],
