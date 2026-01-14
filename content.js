@@ -1,5 +1,5 @@
 (() => {
-  const MAX_MESSAGES = 20;
+  const MAX_MESSAGES = 10;
   const SAFETY_BUFFER = 2;
 
   function getArticles() {
