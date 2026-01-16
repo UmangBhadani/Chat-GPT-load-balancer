@@ -6,10 +6,12 @@ toggleBtn.addEventListener('click',toggle)
 
 function toggle(){
     if(isToggle){
-        status.textContent = "ON"
+        isToggle = false
+        status.textContent = "OFF"
     }
     else if(!isToggle){
-        status.textContent = "OFF"
+        isToggle = true
+        status.textContent = "ON"
     }
 }
 
